@@ -26,7 +26,7 @@ defmodule Commanded.Registration.SwarmRegistry.Mixfile do
 
   defp deps do
     [
-      {:commanded, "~> 1.0", runtime: Mix.env() == :test},
+      {:commanded, git: "git@github.com:predrag-rakic/commanded"}, 
       {:swarm, "~> 3.4"},
 
       # Build & test tools
